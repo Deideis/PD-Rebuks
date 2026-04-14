@@ -1,0 +1,132 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 10px;
+}
+
+
+body {
+    background-color: #191919;
+}
+
+header {
+    background-color: #E6E8E6;
+    color: #191919;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    margin: 10px;
+}
+
+.log_na {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+header nav a {
+    text-decoration: none;
+    color:#191919;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+.hero {
+    display: flex;
+    background-image: url(https://www.enjoyclothing.co.uk/wp-content/uploads/2023/02/enjoy-retro-clothing-truro-20-scaled.jpg);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;         
+    background-position: center;    
+    color: #E6E8E6;
+    justify-content: center;
+    align-items: center; 
+    margin: 15px
+}
+
+
+.hero_title {
+    background-color: rgba(0, 0, 0, 0.5);  
+    display: flex;
+    flex-direction: column;        
+    align-items: center;             
+    text-align: center;
+    padding: 30px 50px;
+    border-radius: 8px;            
+}
+
+
+.desc_txt {
+    display: flex;
+    align-items: center;
+    
+}
+
+#shop_here_but {
+    color:#191919;
+    background-color: #E6E8E6;
+    width: 250px;
+    height: 60px;
+    margin: none;
+    border: none;
+    font-size: 25pt;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 0.5s;
+}
+
+#shop_here_but:hover {
+    width: 270px;
+    height: 80px;
+}
+
+.discount_item {
+    margin: 15px;
+    background-color: #E6E8E6;
+    height: auto;
+
+}
+
+.discount_item img {
+    width: 200px;
+    height: 260px;
+    object-fit: cover;
+}
+
+.discount_item_spacing {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    width: 80%;
+
+
+}
+
+.product_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.product_name {
+    margin: 8px 0 4px;
+    font-size: 14px;
+    color: #191919;
+}
+
+.price {
+    margin: 0;
+}
+
+.old_price {
+    color: #888;
+    font-size: 14px;
+}
+
+.new_price {
+    color: #191919;
+    font-size: 18px;
+    font-weight: bold;
+}
